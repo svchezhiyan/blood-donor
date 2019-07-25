@@ -1,0 +1,70 @@
+.chezhiyan{
+				animation-name:chezhiyan;
+				animation-iteration-count:infinite;
+				animation-duration:1s;
+			}
+			@keyframes chezhiyan{
+				from{
+					color:red;
+				}
+				to
+				{
+					color:yellow;
+				}
+			}
+
+.sound{
+				animation-name:sound;
+				animation-iteration-count:infinite;
+				animation-duration:3s;
+				animation-delay:1;
+				width:400px;
+				background-color:orange;
+			}
+			@keyframes sound{
+				50%{
+					width:400px;
+				}
+				
+				50%
+				{
+					width:300px;
+				}
+						}
+				.dhana{
+				border:dashed;
+				border-color:orange;
+				width:400px;
+				height:200px;
+				
+			}
+			.bala{
+				animation-name:bala;
+				animation-iteration-count:infinite;
+				animation-duration:1s;
+				border-radius:70%;
+				background-color:darkblue;
+			}
+			@keyframes bala{
+				from{
+					color:red;
+				}
+				to
+				{
+					color:yellow;
+				}
+			}
+			.new{
+				border:dashed;
+				border-color:darkblue;
+				width:460px;
+				height:400px;
+				border-top-left-radius:50px;
+				border-bottom-right-radius:50px;
+				box-shadow:0px 12px 14px 0px rgba(30,90,79,0.50);
+				overflow:scroll;
+			}
+			.color{
+				color:cyan;
+				font-size:20px;
+			}

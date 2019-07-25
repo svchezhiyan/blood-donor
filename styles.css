@@ -1,0 +1,31 @@
+.nav-menu{
+position:absolute;
+
+width:100%;
+left:0;
+	background-color:gray;
+	overflow:hidden;
+}
+.nav-menu #nav-sub-menus{
+	float:left;
+	
+}
+.nav-menu #nav-sub-menus a{
+padding:12px;
+color:white;
+text-decoration:none;
+font-size:20px;
+display:block;
+}
+.nav-menu #nav-sub-menus:hover{
+background-color:darkgray;
+}
+.active{
+	background-color:darkgray;
+}
+.signout-button{
+	background-color:inherit;
+	border:none;
+	font-size:18px;
+	color:white;
+}
